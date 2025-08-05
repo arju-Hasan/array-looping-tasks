@@ -14,9 +14,9 @@ for (let i = 0; i < numbers.length; i++) {
 console.log(evenNumbers);
 
 // Task 3
-var numbers = ["Tom", "Tim", "Tin", "Tik"];
-var result = numbers.join("");
-console.log(result);
+var number = ["Tom", "Tim", "Tin", "Tik"];
+var results = number.join("");
+console.log(results);
 
 // Task 4
 const statement = "I am a hard working person";
@@ -27,10 +27,10 @@ const result = words.join(" ");
 console.log(result);
 
 // Task 5
-const numbers = [1, 2, 3, 4, 5];
-const num = [...numbers];
+const numberss = [1, 2, 3, 4, 5];
+const num = [...numberss];
 num[0] = 99;
-console.log("Original:", numbers);
+console.log("Original:", numberss);
 console.log("Copy:", num);
 
 // Task 6
